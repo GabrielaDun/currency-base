@@ -23,6 +23,6 @@ describe('ConvertPLNtoUSD', () => {
     expect(convertPLNToUSD(-1)).toBe('0');
     expect(convertPLNToUSD(-0.5)).toBe('0');
     expect(convertPLNToUSD(-739172)).toBe('0');
-  });
+  }); 
 
 });
