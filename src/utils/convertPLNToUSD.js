@@ -13,7 +13,7 @@ export const convertPLNToUSD = (PLN) => {
   }
   else if (PLN < 0) {
     return PLN = '0';
-  }
+  } 
   else {
 
     const PLNtoUSD = PLN / 3.5;

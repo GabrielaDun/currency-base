@@ -12,7 +12,7 @@ describe('ConvertPLNtoUSD', () => {
     expect(convertPLNToUSD('78')).toBeNaN();
     expect(convertPLNToUSD('Dzień')).toBeNaN();
   });
-  it('should return Nan when input is empty', () => {
+  it('should return Nan when input is empty', () => { 
     expect(convertPLNToUSD()).toBeNaN();
   });
   it('should return Nan when input is not a number or a string', () => {
