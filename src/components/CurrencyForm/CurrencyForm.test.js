@@ -11,7 +11,7 @@ const testCases = [
 
 describe('Component CurrencyForm', () => {
   it('should render without crashing', () => {
-    render(<CurrencyForm action={() => {}} />);
+    render(<CurrencyForm />);
   });
   
   it('should run action callback with proper data on form submit', () => {
